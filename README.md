@@ -1,7 +1,15 @@
-README
+<b>Overview</b><br>
+Simple calculator interface built as an introduction to QT.
 
-Implemented some calculator functionality:
-
-All the basic operations are working, and combinations of them should also work.
+<b>Functionality</b><br>
+Simple calculator operations will work, but very long operations may not.
 
 After a certain number of operations without a clear, the results become inaccurate.
+
+<b>Build Instructions</b><br>
+The calculator can be built from a Ubuntu terminal with libqt4-dev installed:
+
+<code>qmake-qt4 -project</code><br>
+<code>qmake-qt4</code><br>
+<code>make</code><br>
+<code>./calc</code>
